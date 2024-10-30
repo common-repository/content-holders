@@ -1,0 +1,151 @@
+.jgch-hndle {
+	background: #eee;	
+}
+.jgch-postbox{
+    border: 1px solid #eee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+.jgch-postbox .jgch-handlediv{
+    border-left: 1px solid #fff;
+    height: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 7px;
+    padding:  15px 20px 14px 14px;
+}
+.jgch-postbox h3 {
+	padding: 10px 10px 0;
+}
+.jgch-postbox .visible {
+	display: block;
+}
+.jgch-postbox .hidden {
+	display: none;
+}
+.jgch-postbox.closed {
+	margin-bottom: 5px;
+}
+.jgch-postbox h3 {
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0;
+	cursor: default;
+	line-height: 1;
+	padding: 10px;
+}
+.jgch-postbox .code-wrapper {
+	padding: 8px;
+	background: #EEE;
+	border: 1px solid #666;
+}
+.jgch-postbox .code strong {
+	font-size: 15px;
+}
+.jgch-postbox label {
+
+}
+.jgch-postbox input[type="text"]{
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	width: 100%;
+	outline: 0;
+}
+.btn,
+input[type="submit"]{
+	cursor: pointer;
+}
+.jgch .btn {
+	display: inline-block;
+	padding: 4px;
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: whiteSmoke;
+	background-image: -moz-linear-gradient(top, white, #E6E6E6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
+	background-image: -webkit-linear-gradient(top, white, #E6E6E6);
+	background-image: -o-linear-gradient(top, white, #E6E6E6);
+	background-image: linear-gradient(to bottom, white, #E6E6E6);
+	background-repeat: repeat-x;
+	border: 1px solid #BBB;
+	border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-bottom-color: #A2A2A2;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	text-decoration: none;
+	width: 101px;
+	top: -26px;
+	left: 109px;
+	position: relative;
+}
+.jgch .btn.alert {
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #DA4F49;
+	background-image: -moz-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EE5F5B), to(#BD362F));
+	background-image: -webkit-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: -o-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
+	background-repeat: repeat-x;
+	border-color: #BD362F #BD362F #802420;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	margin-left: 20px;
+}
+.jgch-message {
+	padding: 8px 35px 8px 14px;
+	margin-bottom: 20px;
+	color: #C09853;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #FCF8E3;
+	border: 1px solid #FBEED5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.jgch-message.bad {
+	color: #B94A48;
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+}
+.jgch-message.good {
+	color: #468847;
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+}
+.jgch-arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid #666;
+}
+.jgch-arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #666;
+}
